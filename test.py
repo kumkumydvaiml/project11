@@ -14,3 +14,17 @@ b.dtype
 k[1]=60
 print(k[1]+k[3])
 # print(x=k[1]+k[3])
+
+# mul d to 1d 
+# d/b ravel and flatten
+n=np.array([[10,34],[3,4],[7,9],[43,23]])
+r=n.ravel()
+r
+r[1]=900
+print(r)
+print(n)
+v=n.flatten()
+v.ndim
+n.ndim
+print(v)
+print(n)
