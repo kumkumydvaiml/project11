@@ -28,3 +28,10 @@ v.ndim
 n.ndim
 print(v)
 print(n)
+
+# to give same datatype in concatenate otherwise it coverts int to str
+# scaler array means-in which type of data store list or tuple 
+A=np.array(["kumkum"])
+B=np.array(["yadav"])
+k=np.concatenate([A,B])
+print(k)
