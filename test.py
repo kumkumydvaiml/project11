@@ -35,3 +35,6 @@ A=np.array(["kumkum"])
 B=np.array(["yadav"])
 k=np.concatenate([A,B])
 print(k)
+
+
+
